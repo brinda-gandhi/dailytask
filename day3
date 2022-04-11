@@ -1,0 +1,143 @@
+1)
+for loop:
+var obj = [
+{ person: "Name 1", age: "2", company: "GUVI" },
+{ person: "Name 2", age: "5", company: "GUVI geek" },
+{ person: "Name 3", age: "8", company: "GUVI geek network" },
+]
+for(let i =0;i<obj.length;i++)
+{
+console.log(obj[i]);
+}
+for of loop:
+var obj = [
+{ person: "Name 1", age: "2", company: "GUVI" },
+{ person: "Name 2", age: "5", company: "GUVI geek" },
+{ person: "Name 3", age: "8", company: "GUVI geek network" },
+]
+for(var property of obj)
+{
+console.log(property);
+}
+for in loop:
+var obj = [
+{ person: "Name 1", age: "2", company: "GUVI" },
+{ person: "Name 2", age: "5", company: "GUVI geek" },
+{ person: "Name 3", age: "8", company: "GUVI geek network" },
+]
+for(var property in obj)
+{
+console.log(obj[property]);
+}
+for each loop:
+var obj = [
+{ person: "Name 1", age: "2", company: "GUVI" },
+{ person: "Name 2", age: "5", company: "GUVI geek" },
+{ person: "Name 3", age: "8", company: "GUVI geek network" },
+]
+obj.forEach(key => console.log(key));
+
+2) RESUME IN JSON
+{
+  "basics": {
+    "name": "Brinda GAndhi",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "brinda.gandhi221@gmail.com",
+    "phone": "(912) 555-4321",
+    "url": "https://brindag.com",
+    "location": {
+      "postalCode": "654003",
+      "city": "Thoothukudi",
+      "countryCode": "India
+      "state": "Tamil Nadu"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "brinda-gandhi",
+      "url": "https://github.com/brinda-gandhi"
+    }]
+  },
+  "education": [{
+    "institution": "Sri Krishna College of Engineering and Technology",
+    "url": "https://skcet.ac.in/",
+    "area": "Web Development",
+    "studyType": "Bachelor of Information Technology",
+    "startDate": "29-6-2018",
+    "endDate": "01-05-2022",
+    "score": "8.2",
+  }],
+  "certificates": [{
+    "name": "JavaScript Basics",
+    "date": "2021-11-07",
+    "issuer": "GUVI Geek Networks",
+    "url": "https://www.guvi.in/verify-certificate?id=255H0S16j071wNr5y5",
+  }],
+  "publications": [{
+    "name": "Autonomous Fire Detecting Robot using Machine Learning",
+    "publisher": "ICRAFEC",
+    "releaseDate": "2021-10-01",
+    "summary": "The Fire Fighting Robots are most popularly searched to prevent the fire injuries and to improve the effectiveness of the robot. 
+In order to determine the lead of the fire to the robot , smoke and fire (thermal) reflections can be clued. The project aims to design a robotic fire extinguishing vehicle that can be operated both wirelessly and manually.
+After detecting fire by the sensor the fire fighting robot will automatically turn on the pump in order to extinguish fire catches"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Intermediate",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Node JS"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  },
+  {"language":"Tamil",
+  "fluency":"Native Speaker"
+  }],
+  "interests": [{
+    "name": "Badmintion",
+  }]
+  
+};
+
+
+3) Difference between window, screen and document in javascript
+window:
+Window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.
+
+window.screen:
+It is a small information object about physical screen dimensions.
+
+window.document:
+It is the main object of the potentially visible document object model/DOM.
+
+Since window is the global object, you can reference any properties of it with just the property name - so you do not have to write down window.It will be figured out by the runtime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
